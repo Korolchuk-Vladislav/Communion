@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.dreanei.communion.fragments.WritePostFragment">
+
+
+    <EditText
+        android:id="@+id/postname_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:hint="Название" />
+
+    <EditText
+        android:id="@+id/post_write"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_weight="1"
+        android:hint="пост" />
+
+    <Button
+        android:id="@+id/submit_write"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:text="отправить"
+        android:minHeight="200px"/>
+</LinearLayout>

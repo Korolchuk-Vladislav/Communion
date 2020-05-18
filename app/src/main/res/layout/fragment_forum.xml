@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dreanei.communion.fragments.ForumFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/current_forum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:textSize="45px"
+            android:text="ForumTitle (+ SectionTitle)"
+            android:textColor="@color/vk_black"
+            android:textAlignment="center"
+            android:background="@color/vk_share_gray_line"/>
+
+        <ListView
+            android:id="@+id/sections_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@color/vk_grey_color" />
+
+        <Button
+            android:id="@+id/createsection_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:text="новый раздел"
+            android:background="@color/vk_grey_color"/>
+
+        <ListView
+            android:id="@+id/topics_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4" />
+
+        <Button
+            android:id="@+id/createtopic_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="@color/vk_white"
+            android:text="новая тема" />
+
+    </LinearLayout>
+
+</FrameLayout>

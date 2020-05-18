@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dreanei.communion.fragments.TopicFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/current_topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/vk_share_gray_line"
+            android:text="TopicName"
+            android:textAlignment="center"
+            android:textColor="@color/vk_black"
+            android:textSize="45px" />
+
+        <ListView
+            android:id="@+id/postslist_topic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/vk_grey_color"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/writepost_topic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Написать пост"
+            android:layout_weight="6"
+            android:background="@color/vk_grey_color"/>
+    </LinearLayout>
+</FrameLayout>

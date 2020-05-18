@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Communion</string>
+    <string name="sign_in">Вход</string>
+    <string name="icon">icon</string>
+    <string-array name="menu_items">
+        <item>Главная</item>
+        <item>Выход</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="guest_signin">Войти, как гость</string>
+</resources>

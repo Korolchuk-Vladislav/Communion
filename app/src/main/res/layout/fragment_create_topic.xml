@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dreanei.communion.fragments.CreateTopicFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/createtopic_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Название"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/createtopic_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="создать тему" />
+    </LinearLayout>
+</FrameLayout>

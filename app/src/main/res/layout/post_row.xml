@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/vk_grey_color">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/image_postrow"
+        android:layout_width="220px"
+        android:layout_height="260px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/username_postrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="username"
+            android:textSize="45px"
+            android:textColor="@color/vk_share_blue_color"/>
+
+        <TextView
+            android:id="@+id/postname_postrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="name"
+            android:textSize="45px"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="8px"
+            android:layout_weight="1"
+            android:background="@color/vk_light_color">
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/post_postrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="content"
+            android:textSize="40px"/>
+
+        <TextView
+            android:id="@+id/date_postrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="date"
+            android:textSize="32px" />
+    </LinearLayout>
+
+
+</LinearLayout>
